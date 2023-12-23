@@ -7,5 +7,13 @@
  * @website https://github.com/catppuccin/discord
  * @invite r6Mdz5dpFc
  * **/
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+:root {
+--Chat-Font-Used: 'Fira Code', normal ;
+--Chat-Font-Size: 14px;
+}
+:not([class="hljs"]):not(code){
+font-family: var(--Chat-Font-Used)!important;
+}
 
 @import url("https://catppuccin.github.io/discord/dist/catppuccin-macchiato.theme.css");
